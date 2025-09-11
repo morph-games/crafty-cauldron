@@ -1,0 +1,25 @@
+{
+  "name": "crafty-cauldron",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "vite",
+    "preview": "vite preview",
+    "build": "vite build --base=./"
+  },
+  "keywords": [
+    "js13k",
+    "game"
+  ],
+  "author": "Luke Nickerson",
+  "license": "See LICENSE",
+  "devDependencies": {
+    "google-closure-compiler": "^20240317.0.0",
+    "roadroller": "^2.1.0",
+    "rollup": "^4.14.3",
+    "uglify-js": "^3.17.4",
+    "vite": "^5.2.8",
+    "rocket-boots-eslint": "github:rocket-boots/rocket-boots-eslint"
+  }
+}
